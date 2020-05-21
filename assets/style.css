@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    background-image: url(bg-img.png);
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    color: wheat;
+}
+
+/* *{
+    outline: 1px solid red;
+} */
+.list-container {
+    max-height: 58vh;
+    overflow-y: scroll;
+}
+.card-comp{
+    margin-top: 9rem;
+    background-color: wheat;
+    height: 400px;
+    width: 600px;
+}
